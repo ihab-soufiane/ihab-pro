@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ihab Soufiane - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-brand">Ihab Soufiane</div>
+      <div class="nav-menu">
+        <a href="#home" class="nav-link">Accueil</a>
+        <a href="#about" class="nav-link">À propos</a>
+        <a href="#projects" class="nav-link">Projets</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <button class="nav-toggle" id="mobile-menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+    <div class="nav-mobile" id="mobile-nav">
+      <a href="#home" class="nav-link-mobile">Accueil</a>
+      <a href="#about" class="nav-link-mobile">À propos</a>
+      <a href="#projects" class="nav-link-mobile">Projets</a>
+      <a href="#contact" class="nav-link-mobile">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">
+            Salut, je suis <span class="text-accent">Ihab soufiane</span>
+          </h1>
+          <p class="hero-subtitle">
+            Ingénieur Informatique passionné par la création d'applications web modernes et performantes
+          </p>
+          <div class="hero-buttons">
+            <button class="btn btn-primary" id="download-cv">
+              <i class="fas fa-download"></i>
+              Télécharger CV
+            </button>
+            <a class="btn btn-outline" href="#projects">
+              Voir mes projets
+            </a>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/ihab-soufiane" class="social-link" target="_blank"><i
+                class="fab fa-github"></i></a>
+            <a href="www.linkedin.com/in/ihab-eddin-soufiane" class="social-link" target="_blank"><i
+                class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+        <div class="hero-image ">
+          <div class="image-container">
+            <div class="image-bg"></div>
+            <img src="images/me.JPG"  alt="Ihab " class="profile-image">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<section id="about" class="about">
+  <div class="container">
+    <div class="about-wrapper">
+      <!-- Image à gauche -->
+     
+
+      <!-- Texte à droite -->
+      <div class="about-content">
+        <div class="section-header">
+          <h2 class="section-title">À propos de moi</h2>
+          <p class="section-subtitle">
+            Ingénieur Informatique - Spécialité Génie Logiciel
+          </p>
+        </div>
+
+        <div class="about-text">
+          <p class="about-paragraph">
+            Diplômé en ingénierie informatique, spécialisé en génie logiciel, 
+            je suis passionné par le développement web moderne et les solutions numériques innovantes.
+          </p>
+          <p class="about-paragraph">
+            Polyvalent, motivé et doté d’un esprit d’équipe, 
+            j’aime transformer les idées en applications performantes, scalables et esthétiques.
+          </p>
+
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Tunis, Tunisie</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <span>+216 25523084</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>ihab.soufiane@gmail.com</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- About Section 
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">À propos de moi</h2>
+        <p class="section-subtitle">
+          Ingénieur Informatique Spécialité Génie Logiciel
+        </p>
+      </div>
+      <div class=" section-subtitle">
+        <div class="about-text">
+          <p class="about-paragraph">
+            Diplômé en ingénierie informatique,spécialisé en génie logiciel, je suis passionné par le développement.
+
+je suis polyvalent,motivé, je possède une forte capacité à travailler en équipe, ce qui me permet de m'adapter rapidement à différents environnements de travail.
+          </p>
+          <p class="about-paragraph">
+            Mon approche combine créativité et rigueur technique pour livrer des applications performantes,
+            scalables et maintenables. Je suis toujours à la recherche de nouveaux défis et opportunités
+            d'apprentissage.
+          </p>
+          <div class="contact-info t">
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Tunis, Tunisie</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <span>+216 25523084</span>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <span>ihab.soufiane@gmail.com</span>
+            </div>
+          </div>
+        </div>
+        <!--
+        <div class="skills-section">
+          <h3 class="skills-title">Compétences</h3>
+          <div class="skills-grid">
+            <span class="skill-badge">JavaScript</span>
+            <span class="skill-badge">TypeScript</span>
+            <span class="skill-badge">React</span>
+            <span class="skill-badge">Vue.js</span>
+            <span class="skill-badge">Node.js</span>
+            <span class="skill-badge">Python</span>
+            <span class="skill-badge">MongoDB</span>
+            <span class="skill-badge">PostgreSQL</span>
+            <span class="skill-badge">AWS</span>
+            <span class="skill-badge">Docker</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>-->
+ <!-- Projects Section -->
+  <section id="" class="projects">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Mes Compétences</h2>
+        <p class="section-subtitle">
+          Découvrez quelques-uns de mes Technologies récents qui démontrent mes compétences et ma passion pour le
+          développement
+        </p>
+      </div>
+      <div class="projects-grid ">
+        <div>
+ <h3 class="skills-title tools-container "> Frontend</h3>
+          <div class="skills-grid ">
+            <span class="skill-badge ">HTML</span>
+            <span class="skill-badge ">CSS</span>
+            <img src="" alt="" srcset=""><span class="skill-badge ">JavaScript</span>
+            <span class="skill-badge ">TypeScript</span>
+            <span class="skill-badge ">React</span>
+            <span class="skill-badge ">Angular</span>
+            
+            
+          </div>
+       </div>
+           <div>
+ <h3 class="skills-title tools-container">Backend</h3>
+          <div class="skills-grid">
+            <span class="skill-badge">SpringBoot</span>
+            <span class="skill-badge">Java</span>
+            <span class="skill-badge">.Net</span>
+            <span class="skill-badge">Django</span>
+            <span class="skill-badge">Node.js</span>
+            <span class="skill-badge">Python</span>
+            
+          </div>
+       </div>
+           <div>
+ <h3 class="skills-title tools-container">Databases</h3>
+          <div class="skills-grid">
+             <span class="skill-badge">MySQL</span>
+            <span class="skill-badge">MongoDB</span>
+            <span class="skill-badge">PostgreSQL</span>
+            <span class="skill-badge">Firebase</span>
+          </div>
+       </div>
+           <div>
+ <h3 class="skills-title tools-container">CI/CD</h3>
+          <div class="skills-grid">
+            <span class="skill-badge">Git</span>
+            <span class="skill-badge">Jenkins</span>
+            <span class="skill-badge">Docker</span>
+            <span class="skill-badge">SonarQube</span>
+            <span class="skill-badge">AWS</span>
+            
+          </div>
+       </div>
+        <div>
+ <h3 class="skills-title tools-container"><i >Tools</h3>
+          <div class="skills-grid">
+            <span class="skill-badge">Postman</span>
+            <span class="skill-badge">Jira</span>
+            <span class="skill-badge">Slack</span>
+            <span class="skill-badge">Figma</span>
+          
+          </div>
+       </div>
+      </div>
+         
+
+  <div class="tools-container">
+    <img src="icons/Angular.png" alt="HTM" class="tool-icon">
+    <img src="icons/Android.png" alt="CSS" class="tool-icon">
+    <img src="icons/Node.js.png" alt="JavaScript" class="tool-icon">
+    <img src="icons/AWS.png" alt="Angular" class="tool-icon">
+    <img src="icons/Docker.png" alt="Firebase" class="tool-icon">
+    <img src="icons/HTML5.png" alt="HTM" class="tool-icon">
+    <img src="icons/CSS3.png" alt="CSS" class="tool-icon">
+    <img src="icons/Java.png" alt="JavaScript" class="tool-icon">
+    <img src="icons/Spring.png" alt="Angular" class="tool-icon">
+    <img src="icons/SonarQube.png" alt="Firebase" class="tool-icon">
+    <img src="icons/Python.png" alt="HTM" class="tool-icon">
+    <img src="icons/Firebase.png" alt="CSS" class="tool-icon">
+    <img src="icons/MongoDB.png" alt="JavaScript" class="tool-icon">
+    <img src="icons/PostgresSQL.png" alt="Angular" class="tool-icon">
+    <img src="icons/Git.png" alt="Firebase" class="tool-icon">
+    <img src="icons/GitHub.png" alt="HTM" class="tool-icon">
+    <img src="icons/Slack.png" alt="CSS" class="tool-icon">
+    <img src="icons/Jira.png" alt="JavaScript" class="tool-icon">
+    <img src="icons/Jenkins.png" alt="Angular" class="tool-icon">
+    <img src="icons/PHP.png" alt="Firebase" class="tool-icon">
+    <img src="icons/NET.png" alt="CSS" class="tool-icon">
+    <img src="icons/Python.png" alt="JavaScript" class="tool-icon">
+    <img src="icons/Bootstrap.png" alt="Angular" class="tool-icon">
+    <img src="icons/TypeScript.png" alt="Firebase" class="tool-icon">
+  </div>
+
+    </div>
+ 
+  </section>
+
+
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Mes Projets</h2>
+        <p class="section-subtitle">
+          Découvrez quelques-uns de mes projets récents qui démontrent mes compétences et ma passion pour le
+          développement
+        </p>
+      </div>
+      <div class="projects-grid">
+
+        <!-- Système ERP -->
+        <div class="project-card" data-project="erp-system">
+          <div class="project-image">
+            <img src="images/efacture.PNG" alt="Système ERP">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">E-Facture</h3>
+            <p class="project-description">
+             développement d'une application web de gestion des devis et factures.
+            </p>
+            <div class="project-technologies">
+              <span class="tech-badge">Angular</span>
+              <span class="tech-badge">Typescript</span>
+              <span class="tech-badge">Google Cloud Platform</span>
+              <span class="tech-badge">Git</span>
+              <span class="tech-badge">scrum</span>
+              <span class="tech-badge">Slack</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link primary" data-action="demo"><i class="fas fa-external-link-alt"></i>
+                Explorer</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Blog Activiste -->
+        <div class="project-card" data-project="blog-activiste">
+          <div class="project-image">
+            <img src="images/agence.PNG" alt="Blog Activiste Culturel">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Agence du voyage</h3>
+            <p class="project-description">
+             Conception et développement d'un site web Agence du voyage
+            </p>
+            <div class="project-technologies">
+              <span class="tech-badge">Angular</span>
+              <span class="tech-badge">Typescript</span>
+              <span class="tech-badge">NodeJs</span>
+              <span class="tech-badge">Express</span>
+              <span class="tech-badge">NongoDB</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link primary" data-action="demo"><i class="fas fa-external-link-alt"></i>
+                Explorer</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Générateur de Contrats -->
+        <div class="project-card" data-project="generateur-contrats">
+          <div class="project-image">
+            <img src="images/eshop.PNG" alt="Générateur de Contrats">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">site web e-commerce</h3>
+            <p class="project-description">
+             Conception et développement d'un site web e-commerce de vente des vetements
+            </p>
+            <div class="project-technologies">
+              <span class="tech-badge">HTML</span>
+              <span class="tech-badge">CSS</span>
+              <span class="tech-badge">Bootstarp</span>
+              <span class="tech-badge">Javascript</span>
+              <span class="tech-badge">Jquery</span>
+              <span class="tech-badge">PHP</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link primary" data-action="demo"><i class="fas fa-external-link-alt"></i>
+                Explorer</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Plateforme Éducative -->
+        <div class="project-card" data-project="plateforme-educative">
+          <div class="project-image">
+            <img src="images/plat.png" alt="Plateforme Éducative">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">vendre des voitures en Enchére </h3>
+            <p class="project-description">
+             Conception et développement d'une application web pour vendre des voitures d'occasion en Enchére </p> .
+            <div class="project-technologies">
+              <span class="tech-badge">React</span>
+              <span class="tech-badge">SpringBoot </span>
+              <span class="tech-badge">MongoDB</span>
+              <span class="tech-badge">Socket.io</span>
+              <span class="tech-badge">JWT</span>
+              <span class="tech-badge">Git</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link primary" data-action="demo"><i class="fas fa-external-link-alt"></i>
+                Explorer</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Application de Suivi de Dépenses 
+        <div class="project-card" data-project="suivi-depenses">
+          <div class="project-image">
+            <img src="images/d.jpg" alt="Application de Suivi de Dépenses">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Cine+ / Application(Web/mobile) de vente et de réservation de tickets de cinéma</h3>
+            <p class="project-description">
+             Cine+ est une application intuitive permettant aux utilisateurs de consulter les films disponibles à l'affiche, de réserver leurs places au cinéma et d’acheter des tickets en ligne.
+            </p>
+            <div class="project-technologies">
+              <span class="tech-badge">Flutter</span>
+              <span class="tech-badge">Dart</span>
+              <span class="tech-badge">Firebase</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link primary" data-action="demo"><i class="fas fa-external-link-alt"></i>
+                Explorer</a>
+            </div>
+          </div>
+        </div>
+-->
+        <!-- Plateforme Étudiante 
+        <div class="project-card" data-project="student-platform">
+          <div class="project-image">
+            <img src="images/st.jpg" alt="Plateforme Étudiante">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Plateforme Étudiante</h3>
+            <p class="project-description">
+              Plateforme complète pour la gestion des étudiants et cours universitaires avec fonctionnalités avancées de
+              communication.
+            </p>
+            <div class="project-technologies">
+              <span class="tech-badge">Vue.js</span>
+              <span class="tech-badge">Laravel</span>
+              <span class="tech-badge">MySQL</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link primary" data-action="demo"><i class="fas fa-external-link-alt"></i>
+                Explorer</a>
+            </div>
+          </div>
+        </div>
+-->
+        <!-- Project Planner 
+        <div class="project-card" data-project="project-planner">
+          <div class="project-image">
+            <img src="images/project-planner.jpg" alt="Project Planner">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Project Planner</h3>
+            <p class="project-description">
+              Outil avancé de planification et gestion de projets avec collaboration en équipe en temps réel et suivi
+              détaillé des tâches.
+            </p>
+            <div class="project-technologies">
+              <span class="tech-badge">Angular</span>
+              <span class="tech-badge">Node.js</span>
+              <span class="tech-badge">PostgreSQL</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link primary" data-action="demo"><i class="fas fa-external-link-alt"></i>
+                Explorer</a>
+            </div>
+          </div>
+        </div>
+-->
+        <!-- Landing Page
+        <div class="project-card" data-project="Landing-Page">
+          <div class="project-image">
+            <img src="images/vente en ligne.jpg" alt="Landing Page - Vente de Cours en Ligne">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Landing Page - The Bridge</h3>
+            <p class="project-description">
+              Solution e-commerce complète sous forme de landing page, dédiée à la vente de cours en développement web
+              et mobile.
+            </p>
+            <div class="project-technologies">
+              <span class="tech-badge">React</span>
+              <span class="tech-badge">Node.js</span>
+              <span class="tech-badge">Stripe</span>
+              <span class="tech-badge">MongoDB</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link primary" data-action="demo"><i class="fas fa-external-link-alt"></i>
+                Explorer</a>
+            </div>
+          </div>
+        </div>
+-->
+        <!-- IA Générateur 
+        <div class="project-card" data-project="ia-generateur">
+          <div class="project-image">
+            <img src="images/ia systteme.jpg" alt="IA - Générateur de Contenu">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">IA - Générateur de Contenu</h3>
+            <p class="project-description">
+              Générateur intelligent de publications pour réseaux sociaux alimenté par l'IA, optimisant la création de
+              contenu marketing.
+            </p>
+            <div class="project-technologies">
+              <span class="tech-badge">OpenAI API</span>
+              <span class="tech-badge">Python</span>
+              <span class="tech-badge">Django</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="project-link primary" data-action="demo"><i class="fas fa-external-link-alt"></i>
+                Explorer</a>
+            </div>
+          </div>
+        </div>
+-->
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="contact-content">
+        <h2 class="section-title">Travaillons ensemble</h2>
+        <p class="section-subtitle">
+          Vous avez un projet en tête ? N'hésitez pas à me contacter pour discuter de vos besoins et voir comment je
+          peux vous aider.
+        </p>
+        <div class="contact-buttons">
+          <button class="btn btn-primary" id="contact-btn">
+            <i class="fas fa-envelope"></i>
+            Me contacter
+          </button>
+          <button class="btn btn-outline" id="download-cv-footer">
+            <i class="fas fa-download"></i>
+            Télécharger CV
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-text">© 2025 Ihab Soufiane. Tous droits réservés.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

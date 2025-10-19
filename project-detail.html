@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Détail du Projet - Ihab soufiane</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="project-detail.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <a href="index.html">Ihab Soufiane</a>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html#home" class="nav-link">Accueil</a>
+                <a href="index.html#about" class="nav-link">À propos</a>
+                <a href="index.html#projects" class="nav-link">Projets</a>
+                <a href="index.html#contact" class="nav-link">Contact</a>
+            </div>
+            <button class="nav-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <div class="nav-mobile" id="mobile-nav">
+            <a href="index.html#home" class="nav-link-mobile">Accueil</a>
+            <a href="index.html#about" class="nav-link-mobile">À propos</a>
+            <a href="index.html#projects" class="nav-link-mobile">Projets</a>
+            <a href="index.html#contact" class="nav-link-mobile">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Project Detail Section -->
+    <section class="project-detail">
+        <div class="container">
+            <!-- Back Button -->
+            <div class="back-button">
+                <a href="index.html#projects" class="btn btn-outline">
+                    <i class="fas fa-arrow-left"></i>
+                    Retour aux projets
+                </a>
+            </div>
+
+            <!-- Project Header -->
+            <div class="project-header">
+                <div class="project-image-large">
+                    <img id="project-image" src="/placeholder.svg" alt="Project Image">
+                </div>
+                <div class="project-info">
+                    <h1 id="project-title" class="project-title-large"></h1>
+                    <p id="project-description" class="project-description-large"></p>
+                    
+                    <div class="project-actions">
+                        <a id="demo-link" href="#" class="btn btn-primary" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                            Voir la video
+                        </a>
+                        <a id="github-link" href="#" class="btn btn-outline" target="_blank">
+                            <i class="fab fa-github"></i>
+                            Code source
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Details -->
+            <div class="project-details">
+                <div class="detail-section">
+                    <h3>Technologies utilisées</h3>
+                    <div id="technologies-list" class="technologies-grid"></div>
+                </div>
+
+                <div class="detail-section">
+                    <h3>Fonctionnalités principales</h3>
+                    <ul id="features-list" class="features-list"></ul>
+                </div>
+
+                <div class="detail-section">
+                    <h3>Défis techniques</h3>
+                    <p id="challenges-text" class="challenges-text"></p>
+                </div>
+            </div>
+
+            <!-- Related Projects -->
+            <div class="related-projects">
+                <h3>Autres projets</h3>
+                <div class="related-grid">
+                    <a href="index.html#projects" class="related-project btn btn-primary">
+                        <i class="fas fa-th"></i>
+                        <span>Voir tous les projets</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Permission Modal -->
+    <div id="permission-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3>Accès au code source</h3>
+            <p>Pour accéder au code source de ce projet, veuillez me contacter directement pour obtenir une permission.</p>
+            <div class="modal-actions">
+                <button id="contact-for-code" class="btn btn-primary">Me contacter</button>
+                <button id="close-modal-btn" class="btn btn-outline">Fermer</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer-text">© 2025 Ihab Soufiane. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script src="project-detail.js"></script>
+</body>
+</html>
