@@ -65,7 +65,7 @@ const projectsData = {
     title: "site web e-commerce ",
     description:
       "Conception et développement d'un site web e-commerce de vente des vetements.",
-    image: "../images/eshop.png",
+    image: "eshop.png",
     technologies: ["HTML", "CSS", "Bootstrap", "PHP", "MySQL", "JavaScript", "jQuery", "Ajax"],
     features: [
       "Création d'interfaces responsives et attrayantes",
